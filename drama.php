@@ -9,9 +9,9 @@
 <?php endif; ?>
 <?php
 $combinations = array(
-	"people" => array("augitesoul", "vos", "rory", "Vamig Aliev", "BlesseNTumble", "Excrafter", "AlexSocol", "AndreySV", "Byomakuta", "Agentx49", "Thaun_", "KingOfMiners", "pra", "RonFall", "SteveKung", "MJRLegends", "micdoodle8", "radfast", "EzerArch", "my legs"),
-	"sites" => array("something rnadom", "Venom Gaming", "GC Forums", "BetterDiscord", "BetterDiscord2", "augitesite", "Google", "angusnicneven.com", "Wikipedia", "VK", "MCForums"),
-	"things" => array("Galacticraft 3", "Galacticraft 4", "Galacticraft 2", "Amun-Ra", "More Planets", "More Planets 2", "Extra Planets", "GalaxySpace", "Galaxy Additions", "Space_Advanced", "Blank Planet", "Extended Planets", "Vacuum Horizon", "4Space"),
+	"people" => array("augitesoul", "vos", "rory", "Vamig Aliev", "BlesseNTumble", "Excrafter", "AlexSocol", "AndreySV", "Byomakuta", "Agentx49", "Thaun_", "KingOfMiners", "pra", "RonFall", "SteveKung", "MJRLegends", "micdoodle8", "radfast", "EzerArch", "my legs", "Gabe", "GOD", "Internet"),
+	"sites" => array("something rnadom", "Venom Gaming", "GC Forums", "BetterDiscord", "BetterDiscord2", "augitesite", "Google", "angusnicneven.com", "Wikipedia", "VK", "MCForums", "Internet"),
+	"things" => array("Galacticraft 3", "Galacticraft 4", "Galacticraft 2", "Amun-Ra", "More Planets", "More Planets 2", "Extra Planets", "GalaxySpace", "Galaxy Additions", "Space_Advanced", "Blank Planet", "Extended Planets", "Vacuum Horizon", "4Space", "Internet"),
 	"packs" => array("Feed The Beast", "the ForgeCraft pack", "FTB Monster", "FTB Unstable", "Agrarian Skies", "Direwolf20 Pack", "Tekkit", "Hexxit", "ATLauncher", "Resonant Rise", "MCUpdater", "Attack of the B-Team", "Mindcrack", "Dreamland", "ForgeCraft", "Technic"),
 	"function" => array("MJ support", "RF support", "EU support", "FMP compatibility", "tiered rockets", "automatic mining", "GregTech balance", "ComputerCraft APIs", "OpenComputers APIs", "Bukkit plugin compatibility", "MCPC+ support", "ID allocation", "ore processing", "smelting", "crafting", "balance", "bees", "ThaumCraft integration", "realism", "decorative blocks", "new mobs", "TCon tool parts", "new wood types", "bundled cable support", "new player capes", "more drama", "less drama", "microblocks", "drama generation commands", "Blutricity support", "overpowered items", "underpowered items", "new ores", "better SMP support", "achievements", "quests", "more annoying worldgen", "new fuels", "evolved mobs", "gases", "dyed stuff", "dungeons", "my legs"),
 	"adj" => array("bad", "wrong", "illegal", "horrible", "nasty", "not in ForgeCraft", "noncompliant with Mojang's EULA", "a serious problem", "incompatible", "a waste of time", "wonderful", "amazing", "toxic", "too vanilla", "shameful", "disappointing", "bloated", "outdated", "incorrect", "full of drama", "too realistic"),
@@ -127,6 +127,7 @@ $sentences = array(
 	"[people] bans [people] from [sites]",
 	"[people] starts a war against [things]; reason is the release of [code]",
 	"Community of [things] wants to rule the world using their software" 
+	"[people],[people],[people] hate [things] because [people] made [sites]" 	
 	
 );
 
