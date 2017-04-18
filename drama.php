@@ -9,23 +9,23 @@
 <?php endif; ?>
 <?php
 $combinations = array(
-	"people" => array("augitesoul", "vos", "rory", "Vamig Aliev", "BlesseNTumble", "Excrafter", "AlexSocol", "AndreySV", "Byomakuta", "Agentx49", "Thaun_", "KingOfMiners", "pra", "RonFall", "SteveKung", "MJRLegends", "micdoodle8", "radfast", "EzerArch"),
+	"people" => array("augitesoul", "vos", "rory", "Vamig Aliev", "BlesseNTumble", "Excrafter", "AlexSocol", "AndreySV", "Byomakuta", "Agentx49", "Thaun_", "KingOfMiners", "pra", "RonFall", "SteveKung", "MJRLegends", "micdoodle8", "radfast", "EzerArch", "my legs"),
 	"sites" => array("something rnadom", "Venom Gaming", "GC Forums", "BetterDiscord", "BetterDiscord2", "augitesite", "Google", "angusnicneven.com", "Wikipedia", "VK", "MCForums"),
 	"things" => array("Galacticraft 3", "Galacticraft 4", "Galacticraft 2", "Amun-Ra", "More Planets", "More Planets 2", "Extra Planets", "GalaxySpace", "Galaxy Additions", "Space_Advanced", "Blank Planet", "Extended Planets", "Vacuum Horizon", "4Space"),
 	"packs" => array("Feed The Beast", "the ForgeCraft pack", "FTB Monster", "FTB Unstable", "Agrarian Skies", "Direwolf20 Pack", "Tekkit", "Hexxit", "ATLauncher", "Resonant Rise", "MCUpdater", "Attack of the B-Team", "Mindcrack", "Dreamland", "ForgeCraft", "Technic"),
-	"function" => array("MJ support", "RF support", "EU support", "FMP compatibility", "tiered rockets", "automatic mining", "GregTech balance", "ComputerCraft APIs", "OpenComputers APIs", "Bukkit plugin compatibility", "MCPC+ support", "ID allocation", "ore processing", "smelting", "crafting", "balance", "bees", "ThaumCraft integration", "realism", "decorative blocks", "new mobs", "TCon tool parts", "new wood types", "bundled cable support", "new player capes", "more drama", "less drama", "microblocks", "drama generation commands", "Blutricity support", "overpowered items", "underpowered items", "new ores", "better SMP support", "achievements", "quests", "more annoying worldgen", "new fuels", "evolved mobs", "gases", "dyed stuff", "dungeons"),
+	"function" => array("MJ support", "RF support", "EU support", "FMP compatibility", "tiered rockets", "automatic mining", "GregTech balance", "ComputerCraft APIs", "OpenComputers APIs", "Bukkit plugin compatibility", "MCPC+ support", "ID allocation", "ore processing", "smelting", "crafting", "balance", "bees", "ThaumCraft integration", "realism", "decorative blocks", "new mobs", "TCon tool parts", "new wood types", "bundled cable support", "new player capes", "more drama", "less drama", "microblocks", "drama generation commands", "Blutricity support", "overpowered items", "underpowered items", "new ores", "better SMP support", "achievements", "quests", "more annoying worldgen", "new fuels", "evolved mobs", "gases", "dyed stuff", "dungeons", "my legs"),
 	"adj" => array("bad", "wrong", "illegal", "horrible", "nasty", "not in ForgeCraft", "noncompliant with Mojang's EULA", "a serious problem", "incompatible", "a waste of time", "wonderful", "amazing", "toxic", "too vanilla", "shameful", "disappointing", "bloated", "outdated", "incorrect", "full of drama", "too realistic"),
 	"badsoft" => array("malware", "spyware", "adware", "DRM", "viruses", "trojans", "keyloggers", "stolen code", "easter eggs", "potential login stealers", "adf.ly links", "bad code", "stolen assets", "malicious code", "secret backdoors", "ransomware", "CoS", "Internet Explorer", "hidden commands", "arbitrary code execution"),
 	"drama" => array("bugs", "crashes", "drama", "lots of drama", "imbalance", "pain and suffering", "piracy", "bees", "adf.ly", "no more cookies", "unsealed environement"),
 	"crash" => array("crash", "explode", "break", "lag", "blow up", "corrupt chunks", "corrupt worlds", "rain hellfish", "spawn bees", "make wrong dimension IDs"),
 	"ban" => array("ban", "kick", "put a pumpkin of shame on", "add items mocking", "blacklist", "whitelist", "give admin rights to", "shame", "destroy", "kill"),
-	"code" => array("code", "assets", "ideas", "concepts", "a single function", "5 lines of code", "a class", "a few files", "a ZIP file", "Gradle buildscripts", "a GitHub repository", "a variable", "a binary image", "hex"),
+	"code" => array("code", "assets", "ideas", "concepts", "a single function", "5 lines of code", "a class", "a few files", "a ZIP file", "Gradle buildscripts", "a GitHub repository", "a variable", "a binary image", "hex", "a glitch Pokémon"),
 	"worse" => array("worse", "better", "faster", "slower", "more stable", "less buggy", "weaker", "stronger", "harder", "greenier"),
 	"ac1" => array("sue", "destroy the life of", "flame", "cause drama about", "complain about", "kick", "ban", "kill", "annoy", "steal all the cookies of"),
 	"price" => array("200$", "250$", "300$", "350$", "400$", "450$", "500$", "600$", "0.1$"),
 	"activates" => array("activates", "works", "functions", "breaks", "starts", "executes"),
 	"says" => array("says", "tweets", "claims", "confirms", "denies", "whispers", "shouts", "announces", "prints", "posts", "spreads the word", "writes"),
-	"enormous" => array("big", "large", "huge", "gigantic", "enormous", )
+	"enormous" => array("big", "large", "huge", "gigantic", "enormous", "godzilla-sized" )
 );
 $sentences = array(
 	"[people] launched a DoS attack on the website of [things]",
@@ -124,7 +124,10 @@ $sentences = array(
 	"[people] tweaks balance in [things] too much, annoying [people]",
 	"[people] [says] [people] is worse than [people]",
 	"[people] [says] [things] is [worse] than [things]",
-	"[people] bans [people] from [sites]"
+	"[people] bans [people] from [sites]",
+	"[people] starts a war against [things]; reason is the release of [code]",
+	"Community of [things] wants to rule the world using their software" 
+	
 );
 
 function str_replace_first($search, $replace, $subject) {
