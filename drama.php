@@ -25,7 +25,8 @@ $combinations = array(
 	"price" => array("200$", "250$", "300$", "350$", "400$", "450$", "500$", "600$", "0.1$"),
 	"activates" => array("activates", "works", "functions", "breaks", "starts", "executes"),
 	"says" => array("says", "tweets", "claims", "confirms", "denies", "whispers", "shouts", "announces", "prints", "posts", "spreads the word", "writes"),
-	"enormous" => array("big", "large", "huge", "gigantic", "enormous", "godzilla-sized" )
+	"enormous" => array("big", "large", "huge", "gigantic", "enormous", "godzilla-sized" ),
+	"efficiency" => array("super efficient", "not very efficient", "totally useless", "strong as intended") 
 );
 $sentences = array(
 	"[people] launched a DoS attack on the website of [things]",
@@ -126,8 +127,10 @@ $sentences = array(
 	"[people] [says] [things] is [worse] than [things]",
 	"[people] bans [people] from [sites]",
 	"[people] starts a war against [things]; reason is the release of [code]",
-	"Community of [things] wants to rule the world using their software" 
-	"[people],[people],[people] hate [things] because [people] made [sites]" 	
+	"Community of [things] wants to rule the world using their software", 
+	"[people], [people], [people] hate [things] because [people] made [sites]",
+    "[people] fainted!",
+    "[people] used [things] on [sites]! It's [efficiency]!" 	
 	
 );
 
